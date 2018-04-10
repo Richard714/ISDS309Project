@@ -8,6 +8,26 @@ namespace SpringConcertTPS
         static void Main(string[] args)
         {
             //Variables
+            const int iMIN_TICKETS
+            const int iMAX_TICKETS
+            sting strUserInput
+            
+            //User Input for Ticket Selection
+            
+            //User Input for Ticket Type
+            
+            //User Input for Billing/Payment
+            
+            //User Input for Pickup/Shipping Information 
+            
+            //Display Confirmation number
+            
+            //Save the above information in a DB
+            
+            
+            
+            //Confirmation Lookup
+            
             
            
         }
