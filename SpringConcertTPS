@@ -8,25 +8,39 @@ namespace SpringConcertTPS
         static void Main(string[] args)
         {
             //Variables
-            const int iMIN_TICKETS
-            const int iMAX_TICKETS
+            const int iMIN_TICKETS = 1
+            const int iMAX_TICKETS = 5
             sting strUserInput
             
-            //User Input for Ticket Selection
+            //Julia - Initial screen, asking for the user choice of "Check Confirmation", or "Purchase Ticket"
             
-            //User Input for Ticket Type
+            //Purchase Ticket
             
-            //User Input for Billing/Payment
+                //Edith - User Input for Ticket Selection
             
-            //User Input for Pickup/Shipping Information 
+                //Edith - User Input for Ticket Type
             
-            //Display Confirmation number
+                //Richard - Loop for name of ticket holder if more than 1 ticket
             
-            //Save the above information in a DB
+                //Richard - User Input for Billing/Payment
+            
+                //Joe - User Input for Pickup/Shipping Information 
+            
+                //Joe  -  Display Confirmation number
+            
+                //Julia - Save the above information in a DB
+            
+            //julia - Homescreen
             
             
             
-            //Confirmation Lookup
+            //Michael - Confirmation Lookup - Display text prompting user to input the confirmation #
+            
+                //Michael -  User input for confirmation number
+                
+                //Michael - Display shipping, and ticket purchase information on screen that relates to the confirmation provided
+                
+            //Julia - Homescreen
             
             
            
