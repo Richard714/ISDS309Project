@@ -1,22 +1,47 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using static System.Console;
+using static System.IO;
 
 namespace SpringConcertTPS
 {
-    class Program
+    class Welcome 
     {
         static void Main(string[] args)
         {
+
+            
+            //Julia - Initial screen, asking for the user choice of "Check Confirmation", or "Purchase Ticket"
+     }
+     
+    class StoredInformation
+    {
+        public string strFirstName {get; set; }
+        public string strLastName {get; set; }
+        public int iTicketQuantity {get; set; }
+        public int iConfirmationNumber {get; set; }
+        public double dblTotalPrice {get; set; }
+    class Purchase
+    {
+        static void PurchasingProcess(string[] args)
+            
             //Variables
+            const string FILENAME = "PurchaseInformation.txt";
+            const string DELIM = ",";
+            StoredInformation info = new StoredInformation();
+            
             const int iMIN_TICKETS = 1
             const int iMAX_TICKETS = 5
             sting strUserInput
             
-            //Julia - Initial screen, asking for the user choice of "Check Confirmation", or "Purchase Ticket"
-            
             //Purchase Ticket
+            WriteLine("Please fill out the following required information:")
             
                 //Edith - User Input for Ticket Selection
+                 = strUserInput()
             
                 //Edith - User Input for Ticket Type
             
@@ -32,7 +57,10 @@ namespace SpringConcertTPS
             
             //julia - Homescreen
             
-            
+      }
+      
+      class Confirmation
+      {
             
             //Michael - Confirmation Lookup - Display text prompting user to input the confirmation #
             
@@ -41,7 +69,7 @@ namespace SpringConcertTPS
                 //Michael - Display shipping, and ticket purchase information on screen that relates to the confirmation provided
                 
             //Julia - Homescreen
-            
+        }    
             
            
         }
